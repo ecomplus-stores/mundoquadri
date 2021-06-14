@@ -1,5 +1,14 @@
 {
-  "sort_categories": [],
+  "sort_categories": [
+    "pneus/",
+    "pneus-aro-8/",
+    "pneus-aro-9/",
+    "pneus-aro-10/",
+    "pneus-aro-11/",
+    "pneus-aro-12/",
+    "pneus-aro-14/",
+    "pneus-aro-15/"
+  ],
   "phone_wpp": true,
   "socials": true
 }
