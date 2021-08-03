@@ -7,17 +7,10 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z"
-        },
-        {
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
-          "start": "",
-          "end": ""
+          "start": "2021-08-03T20:50:09.563Z",
+          "end": "2021-12-17T20:50:09.591Z",
+          "img": "/img/uploads/fullnew-copia.jpg",
+          "mobile_img": "/img/uploads/fullnew-copia.jpg"
         }
       ]
     },
