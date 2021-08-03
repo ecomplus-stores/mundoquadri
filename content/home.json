@@ -33,9 +33,17 @@
       "page": 1
     },
     {
+      "type": "custom-html",
+      "html": "<div class=\"banner-centro\">\n\t<div class=\"container\">\n\t\t<div class=\"mini-banner\">\n\t\t\t<a href=\"#\">\n\t\t\t\t<img src=\"https://www.tecvirtual.com.br/img/uploads/mini1.jpg\">\n\t\t\t</a>\n\t\t\t<a href=\"#\">\n\t\t\t\t<img src=\"https://www.tecvirtual.com.br/img/uploads/mini1.jpg\">\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"mini-banner\">\n\t\t\t<a href=\"#\">\n\t\t\t\t<img src=\"https://www.tecvirtual.com.br/img/uploads/mini2.jpg\">\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</div>"
+    },
+    {
       "type": "page-title",
       "title": "Loja demo da E-Com Plus",
       "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"texto-footer\">\n\t<div class=\"insta-footer\">\n\t\t<div class=\"title-insta\">@tecvirtualoficial</div>\n\t\t\t<div id=\"instagram-feed\">\n            <!-- LightWidget WIDGET --><script src=\"https://cdn.lightwidget.com/widgets/lightwidget.js\"></script><iframe src=\"https://cdn.lightwidget.com/widgets/9cefffa3df6455e9a64ba9b0ab413813.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe>\n            </div>\n\t</div>\n\t\t\n\t<div class=\"logo-footer\">\n\t\t<img src=\"../img/uploads/logo-footer.png\">\n\t</div>\n\n\t<div class=\"text-footer\">\n\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec sodales mi. Aliquam rhoncus nisi dapibus elementum accumsan. In at tincidunt risus, id consequat ante. Quisque convallis augue orci, at pulvinar nisi pretium ac. Phasellus at nunc a leo gravida cursus quis eu quam. \n\nCras eu tellus lacus. In volutpat orci sit amet accumsan fermentum. Vestibulum cursus nisl neque, ac lobortis magna ullamcorper ut. Vestibulum mollis viverra ante non consectetur. Donec lacinia sed nisl non euismod. </p>\n\t</div>\n</div>"
     }
   ]
 }
