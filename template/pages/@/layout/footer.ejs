@@ -18,7 +18,7 @@ const networksWithColors = [
 <footer class="footer py-3 py-lg-4 py-xl-5">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-auto order-lg-last pl-xl-4">
+      <div class="col-12 col-lg-auto l-xl-4">
         <div class="footer__contacts">
           <% if (footer.contacts.title) { %>
             <div class="footer__title">
@@ -178,25 +178,28 @@ const networksWithColors = [
         </div>
       <% } %>
 
-      <div class="col-12 col-xl order-lg-first">
+      <div class="col-12 col-xl">
         <h2 class="footer__title footer__store">
-          <%= footer.description.title || _.settings.name %>
+          Siga-nos
         </h2>
-        <p><%- footer.description.text || _.settings.description %></p>
+        <p><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMundoQuadri&tabs&width=350&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=348301289312384" width="350" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></p>
+      </div>
 
-        <div class="mt-4 mb-3">
-          <p class="footer__payment-methods">
+    </div>
+
+    <div class="pag-new">
+      <div class="mt-12 mb-12">
+          <div class="footer__payment-methods">
             <% Object.keys(footer.payment_methods).forEach(method => { %>
               <% if (footer.payment_methods[method]) { %>
                 <i class="pay-icon pay-icon--<%= method %>"></i>
               <% } %>
             <% }) %>
-          </p>
+          </div>
           <div class="footer__stamps">
             <%- await include(`@/sections/stamps`, { _, opt: { stamps: footer.stamps } }) %>
           </div>
         </div>
-      </div>
     </div>
 
     <div class="footer__credits">
@@ -225,4 +228,5 @@ const networksWithColors = [
       height="19.98"
     >
   </a>
+  <a href="https://fwragenciadigital.com.br/" target="_blank" rel="noopener">Design <img src="../img/uploads/fwr-agencia-digital.png" alt="FWR Agência Digital"></a>
 </div>
