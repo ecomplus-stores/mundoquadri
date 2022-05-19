@@ -4,7 +4,8 @@
   "desktopOnly": false,
   "enableCheckout": true,
   "options": {
-    "gaTrackingId": "UA-76346543-1"
+    "gaTrackingId": "UA-76346543-1",
+    "googleAdsId": ""
   },
   "headAppend": "src/append/head"
 }
