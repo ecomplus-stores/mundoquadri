@@ -18,8 +18,12 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
-    "random": 6,
+    "featured": [
+      "/pneus/?Pneus",
+      "/guincho-eletrico/?Guincho Elétrico",
+      "/rodas/?Rodas"
+    ],
+    "random": 0,
     "full_width": false
   },
   "search_input": true
