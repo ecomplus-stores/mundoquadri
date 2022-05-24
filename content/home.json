@@ -5,18 +5,37 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
+      "full_width": true,
       "slides": [
         {
           "start": "2021-08-03T20:50:09.563Z",
-          "end": "2021-12-17T20:50:09.591Z",
-          "img": "/img/uploads/fullnew-copia.jpg",
-          "mobile_img": "/img/uploads/fullnew-copia.jpg"
+          "img": "/img/uploads/banner_fourtrax_pneus.jpg",
+          "mobile_img": "/img/uploads/banner_fourtrax_pneus.jpg"
         }
       ]
     },
     {
-      "type": "info-bar",
-      "enabled": true
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/guinchos.jpg",
+          "alt": "Guinhos",
+          "link": "/guincho-eletrico/",
+          "mobile_img": ""
+        },
+        {
+          "img": "/img/uploads/galao.jpg",
+          "alt": "Galão",
+          "link": "/galao/",
+          "mobile_img": ""
+        },
+        {
+          "img": "/img/uploads/barra-led.jpg",
+          "alt": "Barra de led",
+          "link": "/barra-de-led/",
+          "mobile_img": ""
+        }
+      ]
     },
     {
       "type": "collection-shelf",
@@ -26,10 +45,6 @@
       "page": 1
     },
     {
-      "type": "custom-html",
-      "html": "<div class=\"banner-centro\">\n\t<div class=\"container\">\n\t\t<div class=\"mini-banner\">\n\t\t\t<a href=\"#\">\n\t\t\t\t<img src=\"../img/uploads/galoes.jpg\">\n\t\t\t</a>\n\t\t\t<a href=\"#\">\n\t\t\t\t<img src=\"../img/uploads/galoes.jpg\">\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"mini-banner\">\n\t\t\t<a href=\"#\">\n\t\t\t\t<img src=\"../img/uploads/led.jpg\">\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</div>"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
@@ -37,10 +52,6 @@
       "collection_id": "60c14e67641ad82fcc249594:categories:Pneus Aro 11:/pneus-aro-11/",
       "sort": "news",
       "title": "Destaques"
-    },
-    {
-      "type": "custom-html",
-      "html": "<div class=\"texto-footer\">\n\t<div class=\"insta-footer\">\n\t\t<div class=\"logo-footer\">\n\t\t\t<img src=\"../img/uploads/logo-footer.png\">\n\t\t</div>\n\t\t<div class=\"text-footer\">\n\t\t\t<div class=\"title-insta\">CONHEÇA A MUNDO QUADRI</div>\n\t\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec sodales mi. Aliquam rhoncus nisi dapibus elementum accumsan. In at tincidunt risus, id consequat ante. Quisque convallis augue orci, at pulvinar nisi pretium ac. Phasellus at nunc a leo gravida cursus quis eu quam. \n\t\t\t\tCras eu tellus lacus. In volutpat orci sit amet accumsan fermentum. Vestibulum cursus nisl neque, ac lobortis magna ullamcorper ut. Vestibulum mollis viverra ante non consectetur. Donec lacinia sed nisl non euismod.\n\t\t\t\t</p>\n\t\t</div>\n\t</div>\n\n\t<div class=\"box-redes\">\n\t\t<div class=\"face\">\n\t\t\t<iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMundoQuadri&tabs&width=500&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=348301289312384\" width=\"500\" height=\"150\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>\n\t\t</div>\n\t\t<div class=\"insta\">\n\t\t\t<iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMundoQuadri&tabs&width=500&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=348301289312384\" width=\"500\" height=\"150\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>\n\t\t</div>\n\t</div>\n\n</div>"
     }
   ]
 }

@@ -1,26 +1,19 @@
 {
   "marketing_stripe": {
-    "text": "",
+    "text": "Aproveite nossos descontos de até 50%!",
     "link": "/promotion"
   },
   "contacts_stripe": {
     "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      }
     ],
     "phone_wpp": true,
     "socials": true
   },
   "categories_list": {
-    "featured": [
-      "/pneus/?Pneus",
-      "/guincho-eletrico/?Guincho Elétrico",
-      "/rodas/?Rodas"
-    ],
-    "random": 0,
+    "featured": [],
+    "random": 6,
     "full_width": false
   },
+  "desktop_megamenu": true,
   "search_input": true
 }
