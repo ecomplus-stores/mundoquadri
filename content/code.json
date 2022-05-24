@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": ".product-card__prices .prices__installments:after {\n  content: ' no cartão'\n}",
   "html_head": "",
   "html_body": ""
 }
