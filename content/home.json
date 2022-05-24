@@ -54,6 +54,10 @@
       "collection_id": null,
       "sort": "news",
       "title": "Destaques"
+    },
+    {
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
