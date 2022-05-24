@@ -1,11 +1,10 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 50%!",
+    "text": "Todo o site em até 12x no cartão ou 10% no PIX ou Boleto",
     "link": "/promotion"
   },
   "contacts_stripe": {
-    "pages": [
-    ],
+    "pages": [],
     "phone_wpp": true,
     "socials": true
   },
