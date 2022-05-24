@@ -1,11 +1,11 @@
 {
   "description": {
     "title": "",
-    "text": ""
+    "text": "A Mundo Quadri é uma loja virtual de pneus aro 10, 11, 12, 14 e 15 para quadriciclos e utvs além de rodas, guincho elétrico e outros acessórios para quadriciclos e utvs. Trabalhamos com as melhores marcas, como Arisun, Kenda, Obor, Raceline, Runva, Maxxis e outras"
   },
   "links_1": {
     "list_pages": true,
-    "title": "Páginas",
+    "title": "Conteúdo",
     "list": []
   },
   "links_2": {
@@ -14,7 +14,7 @@
     "list": []
   },
   "contacts": {
-    "title": "Contatos",
+    "title": "Atendimento",
     "phone_wpp": true,
     "socials": true,
     "email": true,
