@@ -174,7 +174,7 @@ const hasMegamenu = header.desktop_megamenu
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="i-user"></i>
+            <img src="/img/uploads/user.svg" alt="Usuario">
           </a>
           <a
             id="cart-button"
@@ -183,7 +183,7 @@ const hasMegamenu = header.desktop_megamenu
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <i class="i-shopping-bag"></i>
+            <img src="/img/uploads/cart.svg" alt="Carrinho">
             <span id="cart-count" class="badge badge-primary"></span>
           </a>
         </div>
@@ -205,9 +205,18 @@ const hasMegamenu = header.desktop_megamenu
       <% if (categories && categories.length) { %>
         <div id="nav-desk" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
           <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-            <% categories.forEach(({ slug, name}) => { %>
+            <% categories.forEach(({ slug, name, icon}) => { %>
               <% let $categoryLink %>
               <div class="d-inline-block">
+                <% if (icon) { %>
+                  <span class="menu__item-icon">
+                    <img
+                      data-src="<%= icon.url %>"
+                      alt="<%= icon.alt || name %>"
+                      class="lozad"
+                    >
+                  </span>
+                <% } %>
                 <a
                   href="javascript:;"
                   class="header__category"
@@ -216,6 +225,7 @@ const hasMegamenu = header.desktop_megamenu
                     : `onclick="toggleSidenav('${slug}')"` %>
                 >
                   <%= name %>
+                  <i class="i-chevron-down"></i>
                 </a>
                 <%- $categoryLink %>
                 <%  if (slug && hasMegamenu) { %>

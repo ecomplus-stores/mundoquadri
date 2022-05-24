@@ -7,6 +7,11 @@
     &__search-btn i {
         color: #313131
     }
+    &__submenu {
+        a {
+            color: #9f9f9f !important
+        }
+    }
 }
 .footer {
     background: #191919;
@@ -28,6 +33,14 @@
 #nav-desk {
     padding: 10px;
     a {
-        color: #fff
+        color: #fff;
+        &:hover {
+            color: #F0B003
+        }
     }
+    
+}
+#cart-count {
+    background-color: #fff;
+    color: #000
 }
