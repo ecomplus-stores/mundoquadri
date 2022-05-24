@@ -1,5 +1,5 @@
 {
-  "css": ".product-card__prices .prices__installments:after {\n  content: ' no cartão'\n}",
+  "css": ".product-card__prices .prices__installments:after {\n  content: ' no cartão'\n}\n.address-form button, .cart__btn-checkout, .checkout__account button, .login__email-btn, .minicart__btn-checkout, .minicart__empty a, .payment__method button, .product-card__buy button, .product__buy button, .product__sticky-buy a {background-color: #B08202!important;    border-color: #B08202!important;\n}",
   "html_head": "",
   "html_body": ""
 }
