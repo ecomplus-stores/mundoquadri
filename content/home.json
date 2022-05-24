@@ -51,6 +51,11 @@
       "title": "Destaques"
     },
     {
+      "type": "brands-carousel",
+      "limit": 24,
+      "offset": 0
+    },
+    {
       "type": "blog",
       "enabled": true
     }
