@@ -7,8 +7,11 @@
     "pneus-aro-11/",
     "pneus-aro-12/",
     "pneus-aro-14/",
-    "pneus-aro-15/"
+    "pneus-aro-15/",
+    "rodas/",
+    "guincho-eletrico/"
   ],
   "phone_wpp": true,
-  "socials": true
+  "socials": true,
+  "alphabetical_order": true
 }
