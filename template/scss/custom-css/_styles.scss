@@ -44,3 +44,9 @@
     background-color: #fff;
     color: #000
 }
+// barraa pesquisa no mobile
+@media(max-width: 480px) {
+  #search-bar {
+    display: block !important;
+  }
+}
