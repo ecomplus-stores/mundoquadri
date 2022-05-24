@@ -38,6 +38,9 @@
             color: #F0B003
         }
     }
+    .d-inline-block {
+        margin-right: 10%;
+    }
     
 }
 #cart-count {
@@ -49,4 +52,17 @@
   #search-bar {
     display: block !important;
   }
+}
+.page--home .blog {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+        
+}
+.products-carousel__title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #ffbc00;
+    margin: 15px auto 0;
 }
