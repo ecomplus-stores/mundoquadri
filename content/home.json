@@ -23,13 +23,13 @@
           "img": "/img/uploads/guinchos.jpg",
           "alt": "Guinchos",
           "link": "/guincho-eletrico/",
-          "mobile_img": "/img/uploads/guinchos_mobile.jpg"
+          "mobile_img": ""
         },
         {
           "img": "/img/uploads/barra-led.jpg",
           "alt": "Barra de led",
           "link": "/barra-de-led/",
-          "mobile_img": "/img/uploads/barra-led_mobile.jpg"
+          "mobile_img": ""
         }
       ]
     },
