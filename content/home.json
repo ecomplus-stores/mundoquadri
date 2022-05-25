@@ -26,9 +26,6 @@
           "mobile_img": "/img/uploads/guinchos_mobile.jpg"
         },
         {
-          "img": "/img/uploads/divisao.jpg"
-        },
-        {
           "img": "/img/uploads/barra-led.jpg",
           "alt": "Barra de led",
           "link": "/barra-de-led/",
