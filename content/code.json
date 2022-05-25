@@ -1,5 +1,5 @@
 {
   "css": ".product-card__prices .prices__installments:after {\n  content: ' no cartão'\n}\n.address-form button, .cart__btn-checkout, .checkout__account button, .login__email-btn, .minicart__btn-checkout, .minicart__empty a, .payment__method button, .product-card__buy button, .product__buy button, .product__sticky-buy a {background-color: #B08202!important;    border-color: #B08202!important;\n}\n",
   "html_head": "",
-  "html_body": "<script>\nwindow.ecomPaymentApps = [1251, 117391, 1250, 108091]\n</script>"
+  "html_body": "<script>\nwindow.ecomPaymentApps = [1251, 117391, 1250, 108091]\n</script>\n<a href=\"https://wa.me/5541998450064?text=Ola%20estou%20na%20sua%20loja\" style=\"position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;\nz-index:1000;\" target=\"_blank\">\n<i style=\"margin-top:16px\" class=\"fab fa-whatsapp\"></i>\n</a>"
 }
