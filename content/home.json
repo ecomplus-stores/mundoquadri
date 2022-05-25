@@ -57,10 +57,6 @@
       "sort": null
     },
     {
-      "type": "custom-content",
-      "markdown": "![](/img/uploads/blog.png)"
-    },
-    {
       "type": "blog",
       "enabled": true
     }
