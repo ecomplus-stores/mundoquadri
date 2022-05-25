@@ -2,6 +2,12 @@
 .top-bar__nav {
     display: none !important;
 }
+.app__header {
+    background: #191919;
+    * {
+        color: #fff !important
+    }
+}
 .header {
     background: #191919;
     &__search-btn i {
