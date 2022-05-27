@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.d0e74c035bbb43ce5ff5e293218c4c96.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_384x384.5ff0d1ae9c765c1aa166bbccae94d50d.jpeg",
+      "sizes": "384x384",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_192x192.867685fa3d333cccc3462289ceb4de23.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_128x128.0a6fa0fcea70f2d166cacad8f15dc6e8.jpeg",
+      "sizes": "128x128",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_96x96.dcd296408261e5b81306123aa545cb68.jpeg",
+      "sizes": "96x96",
+      "type": "image/jpeg"
+    }
+  ],
+  "name": "mundoquadri",
+  "short_name": "mundoquadri",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "mundoquadri",
+  "background_color": "#ffffff",
+  "theme_color": "#222831"
+}
