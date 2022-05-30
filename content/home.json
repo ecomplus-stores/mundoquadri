@@ -51,6 +51,14 @@
       "title": "Pneus Honda Fourtrax"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "sort": "news",
+      "title": "Lançamentos"
+    },
+    {
       "type": "brands-carousel",
       "limit": 24,
       "offset": 0,
