@@ -9,7 +9,7 @@
   "bg_color": "#ffffff",
   "logo": "/img/uploads/logo.png",
   "name": "mundoquadri",
-  "short_name": "mundoquadri",
+  "short_name": "MundoQuadri",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
@@ -20,6 +20,6 @@
   "secondary_color": "#393e46",
   "icon": "/img/uploads/logo_2022_quadrado.jpg",
   "store_id": 1060,
-  "description": "mundoquadri",
+  "description": "MundoQuadri",
   "large_icon": "/img/uploads/logo_2022_quadrado.jpg"
 }
