@@ -88,6 +88,9 @@ const { path } = _.route
             <%= footer.links_1.title || _.dictionary('pages') %>
           </a>
           <div class="collapse" id="footer-pages">
+            <% if (path === '/' || path === '/index') { %> 
+              <h1  class="footer__store" itemprop="name"><%= footer.description.title || _.settings.name %></h1>
+            <% }
             <% if (footer.links_1.list_pages) { %>
               <ul class="footer__links">
                 <% (_.cms('pages') || []).forEach(slug => { %>
