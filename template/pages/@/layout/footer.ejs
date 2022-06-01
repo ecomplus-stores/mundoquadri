@@ -169,7 +169,7 @@ const { path } = _.route
     <div class="footer__credits">
       <span>
         <% if (path === '/' || path === '/index') { %> 
-              <h1  class="footer__store" itemprop="name"><%= footer.description.title || _.settings.name %></h1> <%= / ${contacts.address} / ${contacts.doc_number}` %>
+              <h1  class="footer__store" itemprop="name">Mundo Quadri</h1> <%= ` / ${contacts.address} / ${contacts.doc_number}` %>
         <% } else { %>
           <%= footer.credits || `© ${_.store.name} / ${contacts.address} / ${contacts.doc_number}` %>
         <% } %>
