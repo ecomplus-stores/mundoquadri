@@ -88,9 +88,6 @@ const { path } = _.route
             <%= footer.links_1.title || _.dictionary('pages') %>
           </a>
           <div class="collapse" id="footer-pages">
-            <% if (path === '/' || path === '/index') { %> 
-              <h1  class="footer__store" itemprop="name"><%= footer.description.title || _.settings.name %></h1>
-            <% }
             <% if (footer.links_1.list_pages) { %>
               <ul class="footer__links">
                 <% (_.cms('pages') || []).forEach(slug => { %>
@@ -171,7 +168,12 @@ const { path } = _.route
 
     <div class="footer__credits">
       <span>
-        <%= footer.credits || `© ${_.store.name} / ${contacts.address} / ${contacts.doc_number}` %>
+        <% if (path === '/' || path === '/index') { %> 
+              <h1  class="footer__store" itemprop="name"><%= footer.description.title || _.settings.name %></h1> <%= / ${contacts.address} / ${contacts.doc_number}` %>
+        <% } else { %>
+          <%= footer.credits || `© ${_.store.name} / ${contacts.address} / ${contacts.doc_number}` %>
+        <% } %>
+           
       </span>
       <button
         id="go-to-top"
