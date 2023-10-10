@@ -55,8 +55,8 @@
       "shuffle": true,
       "limit": 12,
       "page": 1,
-      "sort": "news",
-      "title": "Lançamentos"
+      "sort": "offers",
+      "title": "Ofertas"
     },
     {
       "type": "brands-carousel",
