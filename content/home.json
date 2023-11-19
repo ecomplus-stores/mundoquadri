@@ -8,18 +8,18 @@
       "full_width": true,
       "slides": [
         {
-          "start": "",
-          "img": "/img/uploads/banner_fourtrax_pneus_full.jpg",
-          "mobile_img": "/img/uploads/banner_fourtrax_pneus.jpg",
-          "end": "",
-          "link": "/pneus-honda-fourtrax/"
-        },
-        {
           "start": "2023-11-18T03:00:00.000Z",
           "end": "2023-11-26T03:00:00.000Z",
           "img": "/img/uploads/banner-para-site-de-black-friday-neon-amarelo.jpg",
           "link": "https://www.mundoquadri.com.br/black-week",
           "alt": "Black Week"
+        },
+        {
+          "start": "",
+          "img": "/img/uploads/banner_fourtrax_pneus_full.jpg",
+          "mobile_img": "/img/uploads/banner_fourtrax_pneus.jpg",
+          "end": "",
+          "link": "/pneus-honda-fourtrax/"
         }
       ]
     },
