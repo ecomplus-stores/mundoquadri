@@ -9,8 +9,14 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
-    "random": 6,
+    "featured": [
+      "/pneus/?Pneus",
+      "/acessorios/?Acessórios",
+      "/equipamentos?Equipamentos",
+      "/pecas?Peças",
+      "/rodas/?Rodas"
+    ],
+    "random": 0,
     "full_width": true
   },
   "desktop_megamenu": true,
