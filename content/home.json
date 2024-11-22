@@ -29,8 +29,8 @@
       "collection_id": null,
       "limit": 24,
       "page": "",
-      "sort": "news",
-      "title": "Lançamentos"
+      "sort": "offers",
+      "title": "Ofertas"
     },
     {
       "type": "collection-shelf",
