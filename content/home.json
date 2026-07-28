@@ -4,15 +4,16 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 6000,
+      "autoplay": 9000,
       "full_width": true,
       "slides": [
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner_fourtrax_pneus_full.jpg",
+          "img": "/img/uploads/banner_pneus_honda_fourtrax.png",
           "link": "/pneus-honda-fourtrax/",
-          "alt": "Pneus Honda Fourtrax"
+          "alt": "Pneus Honda Fourtrax",
+          "mobile_img": "/img/uploads/banner_pneus_honda_fourtrax_mobile.png"
         },
         {
           "start": "",
