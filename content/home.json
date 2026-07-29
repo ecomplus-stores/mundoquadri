@@ -1,6 +1,6 @@
 {
-  "meta_title": "Pneu Obor Tricera 32x10R15",
-  "meta_description": "Pneu Obor Tricera 32x10R15 para Rally e aventuras extremas",
+  "meta_title": "Ecoflow River 2 Pro 127V",
+  "meta_description": "Estação de Energia Portátil Ecoflow River 2 Pro 127V para suas aventuras offroad e camping.",
   "sections": [
     {
       "type": "banner-slider",
@@ -42,6 +42,12 @@
       "collection_id": "60c14ea3641ad82fcc249637:categories:Pneus Honda Fourtrax:/pneus-honda-fourtrax/",
       "sort": "sales",
       "title": ""
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/estacao_energia_ecoflow_river_2_pro.png",
+      "link": "Ecoflow River 2 Pro 127V",
+      "alt": "/estacao-energia-ecoflow-river-2-pro-127v-768wh"
     },
     {
       "type": "collection-shelf",
